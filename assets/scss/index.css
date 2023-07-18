@@ -53,7 +53,7 @@ a {
 
 header {
   width: 100%;
-  padding: 2rem 2rem;
+  padding: 2rem 1rem;
 }
 header .wecall-logo {
   width: 100px;
@@ -68,7 +68,6 @@ header .wecall-logo {
 .reset-password-section {
   width: 100%;
   height: 73vh;
-  padding: 0 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,7 +75,6 @@ header .wecall-logo {
 }
 @media (min-width: 768px) {
   .reset-password-section {
-    padding: 0 2rem;
     height: 80vh;
   }
 }
@@ -117,7 +115,7 @@ header .wecall-logo {
 }
 @media (min-width: 768px) {
   .reset-password-section .card {
-    padding: 37px 108px;
+    padding: 37px 90px;
   }
 }
 .reset-password-section .card .password-request-label {
@@ -169,14 +167,14 @@ header .wecall-logo {
   .reset-password-section .card .reset-button {
     width: inherit;
     font-size: 22px;
-    padding: 23px 87px;
+    padding: 20px 87px;
   }
 }
 @media (min-width: 883px) {
   .reset-password-section .card .reset-button {
     width: inherit;
     font-size: 24px;
-    padding: 23px 87px;
+    padding: 20px 70px;
   }
 }
 .reset-password-section .card .your-email {
@@ -212,6 +210,11 @@ header .wecall-logo {
 
 footer {
   padding: 2rem 0;
+}
+@media (min-width: 768px) {
+  footer {
+    padding: 0;
+  }
 }
 footer .copyright-label {
   color: #738ba9;
