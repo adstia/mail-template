@@ -66,17 +66,11 @@ header .wecall-logo {
 }
 
 .reset-password-section {
-  width: 100%;
-  height: 73vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-@media (min-width: 768px) {
-  .reset-password-section {
-    height: 80vh;
-  }
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
 }
 .reset-password-section .lock-icon {
   width: 70px;
@@ -208,13 +202,416 @@ header .wecall-logo {
   color: #1994ff;
 }
 
-footer {
-  padding: 2rem 0;
+.forgot-password-section {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+.forgot-password-section .lock-icon {
+  width: 70px;
+}
+@media (min-width: 576px) {
+  .forgot-password-section .lock-icon {
+    width: 80px;
+  }
 }
 @media (min-width: 768px) {
-  footer {
-    padding: 0;
+  .forgot-password-section .lock-icon {
+    width: 100px;
   }
+}
+.forgot-password-section .password-reset-label {
+  font-size: 30px;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .forgot-password-section .password-reset-label {
+    font-size: 48px;
+  }
+}
+.forgot-password-section .card {
+  margin-top: 3rem;
+  max-width: 900px;
+  padding: 3rem 1rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  border-radius: 15px;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  box-shadow: 3px 4px 72px 0px rgba(0, 0, 0, 0.04);
+}
+@media (min-width: 768px) {
+  .forgot-password-section .card {
+    padding: 37px 90px;
+  }
+}
+.forgot-password-section .card .password-request-label {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 152.5%;
+}
+@media (min-width: 768px) {
+  .forgot-password-section .card .password-request-label {
+    font-size: 24px;
+  }
+}
+.forgot-password-section .card .visit-address-label {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.5%;
+}
+@media (min-width: 768px) {
+  .forgot-password-section .card .visit-address-label {
+    font-size: 18px;
+  }
+}
+.forgot-password-section .card .reset-button {
+  outline: none;
+  border: none;
+  background-color: #1994ff;
+  display: flex;
+  border-radius: 10px;
+  cursor: pointer;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  padding: 1rem 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.5%;
+}
+@media (min-width: 576px) {
+  .forgot-password-section .card .reset-button {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) {
+  .forgot-password-section .card .reset-button {
+    width: inherit;
+    font-size: 22px;
+    padding: 20px 87px;
+  }
+}
+@media (min-width: 883px) {
+  .forgot-password-section .card .reset-button {
+    width: inherit;
+    font-size: 24px;
+    padding: 20px 70px;
+  }
+}
+.forgot-password-section .card .your-email {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 152.5%;
+}
+@media (min-width: 768px) {
+  .forgot-password-section .card .your-email {
+    font-size: 18px;
+  }
+}
+.forgot-password-section .card .your-email .email {
+  color: #1994ff;
+}
+.forgot-password-section .card .link-expire-label {
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.5%;
+}
+@media (min-width: 768px) {
+  .forgot-password-section .card .link-expire-label {
+    font-size: 18px;
+  }
+}
+.forgot-password-section .card .link-expire-label a {
+  text-decoration: underline;
+  color: #1994ff;
+}
+
+.create-password-section {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+.create-password-section .lock-icon {
+  width: 70px;
+}
+@media (min-width: 576px) {
+  .create-password-section .lock-icon {
+    width: 80px;
+  }
+}
+@media (min-width: 768px) {
+  .create-password-section .lock-icon {
+    width: 100px;
+  }
+}
+.create-password-section .create-password-label {
+  font-size: 30px;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .create-password-section .create-password-label {
+    font-size: 48px;
+  }
+}
+.create-password-section .card {
+  margin-top: 3rem;
+  max-width: 900px;
+  padding: 3rem 1rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  border-radius: 15px;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  box-shadow: 3px 4px 72px 0px rgba(0, 0, 0, 0.04);
+}
+@media (min-width: 768px) {
+  .create-password-section .card {
+    padding: 37px 90px;
+  }
+}
+.create-password-section .card .password-request-label {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 152.5%;
+}
+@media (min-width: 768px) {
+  .create-password-section .card .password-request-label {
+    font-size: 24px;
+  }
+}
+.create-password-section .card .visit-address-label {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.5%;
+}
+@media (min-width: 768px) {
+  .create-password-section .card .visit-address-label {
+    font-size: 18px;
+  }
+}
+.create-password-section .card .reset-button {
+  outline: none;
+  border: none;
+  background-color: #1994ff;
+  display: flex;
+  border-radius: 10px;
+  cursor: pointer;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  padding: 1rem 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.5%;
+}
+@media (min-width: 576px) {
+  .create-password-section .card .reset-button {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) {
+  .create-password-section .card .reset-button {
+    width: inherit;
+    font-size: 22px;
+    padding: 20px 87px;
+  }
+}
+@media (min-width: 883px) {
+  .create-password-section .card .reset-button {
+    width: inherit;
+    font-size: 24px;
+    padding: 20px 70px;
+  }
+}
+.create-password-section .card .your-email {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 152.5%;
+}
+@media (min-width: 768px) {
+  .create-password-section .card .your-email {
+    font-size: 18px;
+  }
+}
+.create-password-section .card .your-email .email {
+  color: #1994ff;
+}
+.create-password-section .card .link-expire-label {
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.5%;
+}
+@media (min-width: 768px) {
+  .create-password-section .card .link-expire-label {
+    font-size: 18px;
+  }
+}
+.create-password-section .card .link-expire-label a {
+  text-decoration: underline;
+  color: #1994ff;
+}
+
+.shared-report-section {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+.shared-report-section .lock-icon {
+  width: 70px;
+}
+@media (min-width: 576px) {
+  .shared-report-section .lock-icon {
+    width: 80px;
+  }
+}
+@media (min-width: 768px) {
+  .shared-report-section .lock-icon {
+    width: 100px;
+  }
+}
+.shared-report-section .shared-report-label {
+  font-size: 30px;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .shared-report-section .shared-report-label {
+    font-size: 48px;
+  }
+}
+.shared-report-section .card {
+  margin-top: 3rem;
+  max-width: 900px;
+  padding: 3rem 1rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  border-radius: 15px;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  box-shadow: 3px 4px 72px 0px rgba(0, 0, 0, 0.04);
+}
+@media (min-width: 768px) {
+  .shared-report-section .card {
+    padding: 37px 90px;
+  }
+}
+.shared-report-section .card .why-receiving-label {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 152.5%;
+}
+@media (min-width: 768px) {
+  .shared-report-section .card .why-receiving-label {
+    font-size: 24px;
+  }
+}
+.shared-report-section .card .visit-address-label {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.5%;
+}
+@media (min-width: 768px) {
+  .shared-report-section .card .visit-address-label {
+    font-size: 18px;
+  }
+}
+.shared-report-section .card .reset-button {
+  outline: none;
+  border: none;
+  background-color: #1994ff;
+  display: flex;
+  border-radius: 10px;
+  cursor: pointer;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  padding: 1rem 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.5%;
+}
+@media (min-width: 576px) {
+  .shared-report-section .card .reset-button {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) {
+  .shared-report-section .card .reset-button {
+    width: inherit;
+    font-size: 22px;
+    padding: 20px 87px;
+  }
+}
+@media (min-width: 883px) {
+  .shared-report-section .card .reset-button {
+    width: inherit;
+    font-size: 24px;
+    padding: 20px 70px;
+  }
+}
+.shared-report-section .card .important-note {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 152.5%;
+}
+@media (min-width: 768px) {
+  .shared-report-section .card .important-note {
+    font-size: 16px;
+  }
+}
+.shared-report-section .card .link-expire-label {
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.5%;
+}
+@media (min-width: 768px) {
+  .shared-report-section .card .link-expire-label {
+    font-size: 18px;
+  }
+}
+.shared-report-section .card .link-expire-label a {
+  text-decoration: underline;
+  color: #1994ff;
+}
+
+footer {
+  padding: 3rem 0;
 }
 footer .copyright-label {
   color: #738ba9;
